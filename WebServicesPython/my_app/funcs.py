@@ -64,7 +64,7 @@ def sendFile(filename):
             zipf.write("pessoas.json")
             zipf.close()
 
-            return send_from_directory("C:\Projeto_AQD\WebServicesPython", filename, as_attachment=True)
+            return send_from_directory("C:\Projeto_AQD_final\WebServicesPython", filename, as_attachment=True)
             # return Response(data,
             #             mimetype="application/json",
             #             headers={"Content-Disposition":
